@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_span="2"
+    android:background="#460D6A"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:id="@+id/tableLayout"
+    tools:context=".MainActivity">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="*****"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <Button
+            android:id="@+id/textBTN1"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Нажми на кнопку" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="*****"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <Button
+            android:id="@+id/textBTN2"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="Нажми на кнопку" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="*****"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <Button
+            android:id="@+id/textBTN3"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="Нажми на кнопку" />
+    </TableRow>
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <Button
+            android:id="@+id/addBTN"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="Нажми на кнопку"
+            />
+    </TableRow>
+</TableLayout>
